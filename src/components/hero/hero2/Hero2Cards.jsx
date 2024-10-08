@@ -1,11 +1,14 @@
-
+import AquaNaturalremovebgpreview from "../../../asset/productsImage/Aqua_Natural-removebg-preview.png";
+import AquafreshSwiftremovebgpreview from "../../../asset/productsImage/Aquafresh_Swift-removebg-preview.png";
+import AquagrandSkylandremovebgpreview from "../../../asset/productsImage/Aquagrand_Skyland-removebg-preview.png"; 
+import NexusDiamondremovebgpreview from "../../../asset/productsImage/Nexus_Diamond-removebg-preview.png";
 const Hero2Cards = () => {
 
 
   return (
     <div className="p-5 text-white h-[60vh] bg-black">
       <div className="h-[10%] w-full">
-        <span className="text-xl font-[gilroy]">
+        <span className="text-2xl font-[gilroy]">
           {" "}
           Latest and Tranding
         </span>
@@ -16,9 +19,10 @@ const Hero2Cards = () => {
         </div>
         <div className="p-2 h-[52%] w-[90%] bg-zinc-900 text-blue-600 rounded-3xl flex justify-center items-center object-cover">
           <img
+          className="max-h-[90%] w-[50%] object-cover"
             fetchPriority="high"
             id="hero2Img"
-            src="https://images.unsplash.com/photo-1660053094665-a21094758e8b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={AquaNaturalremovebgpreview}
             alt="img"
           />
         </div>

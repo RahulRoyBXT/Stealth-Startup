@@ -34,3 +34,8 @@ body,html{
     object-fit: cover;
     border-radius: 25px;
 }
+
+.customBorder{
+    border-radius: 25px;
+    border: 10px solid #424247 ;
+}

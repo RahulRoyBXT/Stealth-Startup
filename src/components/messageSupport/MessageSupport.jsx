@@ -2,7 +2,7 @@ import MessageCard from './MessageCard.jsx'
 
 const MessageSupport = () => {
   return (
-    <div className="h-[90vh] w-full bg-slate-900">
+    <div className="h-[90vh] w-full bg-black">
       <MessageCard />
     </div>
   )
