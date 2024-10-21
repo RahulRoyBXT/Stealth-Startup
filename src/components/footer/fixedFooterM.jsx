@@ -5,7 +5,7 @@ import { RiMessage2Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
 const FixedFooterM = () => {
   return (
-    <div className="h-[10vh] w-[100%] bg-transparent fixed bottom-0 flex justify-center items-center">
+    <div className="md:hidden h-[10vh] w-[100%] bg-transparent fixed bottom-0 flex justify-center items-center">
         <div className="h-[90%] w-[98%] bg-[#1F1F1F] rounded-2xl flex flex-row justify-evenly items-center">
         <Link className= "h-[100%] w-[20vw] flex items-center justify-center" to='/'><CiHome className="h-[50%] w-[60%] text-white font-black"/> </Link>
         <Link className= "h-[100%] w-[20vw] flex items-center justify-center" to='/products'><AiOutlineProduct className="h-[50%] w-[60%] text-white font-black"/> </Link>

@@ -20,9 +20,9 @@ body,html{
 
 @media screen and (min-width: 768px){
     *{
-       display: none;
+        background-color: #424247;
+        display: none;
     }
-    
 }
 
 #mainImage{
