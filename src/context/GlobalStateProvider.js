@@ -1,4 +1,4 @@
-import {useState, createContext, useContext} from 'react';
+import {useState, createContext, useContext, useEffect} from 'react';
 import PropTypes from 'prop-types';
 // Custom hook to use the global state
 const GlobalStateContext = createContext();

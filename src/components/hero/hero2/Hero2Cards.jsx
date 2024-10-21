@@ -19,8 +19,8 @@ const Hero2Cards = () => {
         </div>
         <div className="p-2 h-[52%] w-[90%] bg-zinc-900 text-blue-600 rounded-3xl flex justify-center items-center object-cover">
           <img
-          className="max-h-[90%] w-[50%] object-cover"
-            fetchPriority="high"
+          className="max-h-[90%] w-[50%] object-cover" 
+          fetchpriority="high"
             id="hero2Img"
             src={AquaNaturalremovebgpreview}
             alt="img"
