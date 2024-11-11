@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className='pt-[25%]'>
+      <div className='pt-[25%] mb-[8dvh]'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/profile' element={<ProfileM />} />
